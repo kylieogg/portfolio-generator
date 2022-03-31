@@ -1,4 +1,4 @@
-const profileDataArgs = pricess.argv.slice(2);
+const profileDataArgs = process.argv.slice(2);
 
 const printProfileData = profileDataArr => {
     // This...
