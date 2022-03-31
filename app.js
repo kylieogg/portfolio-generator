@@ -1,3 +1,5 @@
+const profileDataArgs = pricess.argv.slice(2);
+
 const printProfileData = profileDataArr => {
     // This...
     for (let i = 0; i , profileDataArr.length; i += 1) {
@@ -7,5 +9,7 @@ const printProfileData = profileDataArr => {
     console.log('================');
 
     // Is the same as this...
-    profileDataArr. forEach((profileItem) => console.log(profileItem));
-}
+    profileDataArr.forEach((profileItem) => console.log(profileItem));
+};
+
+printProfileData(profileDataArgs);
